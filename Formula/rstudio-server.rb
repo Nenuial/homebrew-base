@@ -4,8 +4,6 @@ class RstudioServer < Formula
   url "https://github.com/rstudio/rstudio/archive/v1.2.5001.tar.gz"
   sha256 "0d1ec7aef62bda1ceec364e372fdbbcc4da502a3f03eddcddc700bdead6ee840"
 
-  bottle: unneeded
-
   depends_on "ant" => :build
   depends_on "boost-rstudio-server"
   depends_on "cmake" => :build
